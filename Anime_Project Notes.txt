@@ -1,0 +1,10 @@
+Data - anime_filtered:
+https://www.kaggle.com/azathoth42/myanimelist#anime_filtered.csv
+
+Using some Excel to clean up the URLs in the anime_filtered.csv file.
+From the above file, we only need the image_url column
+Take it to a new file
+Remove the duplicates
+Remove the blank line
+replace the cdn-dena.com part such that the result should be myanimelist.net/images/......
+try opening a few images
