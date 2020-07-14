@@ -52,27 +52,61 @@ Commenting and Documentation are really important, lads. Keep that in mind.
 <hr>
   
 <h3> BASE9 Anime_Image_Scraper.ipynb </h3>
+  This is script which explores multi-threaded image downloads.
+<hr>
 
 <h3> BASE10 Anime_Image_Scraper.ipynb </h3>
+  We further refine the threaded scrapring in this script.
+  100 imgges = 73.51s without threading
+  100 images = 47.45s with threading
+<hr>
 
 <h3> BASE11 Anime_Image_Scraper DNU.ipynb </h3>
+  Ignore. DO NOT USE. Runs into a race condition.
+<hr>
 
 <h3> BASE12 Anime_Image_Scraper.ipynb </h3>
+  We try to download the 100x100 images, I think this is where the wrong images went into the wrong folders. Hopefully not. But I'm not sure. We'll see. <br>
+  I'm not sure if it worked, there are a lot of warnings.
+  Download statistics are hard to find.
+<hr>
 
 <h3> BASE13 Anime_Character_Name_scraper.ipynb </h3>
+  IMPORTANT.
+  Scraping top 10 characters for 192 different anime it seems like.
+  We get the names based on the anime-id.
+  Takes around 21 minutes to get these 1920 names.
+<hr>
 
 <h3> BASE14 Anime_Image_Scraper only Pool no thread.ipynb </h3>
-
+  This is a multiprocessed trial script to download anime faces.
+  No stats.
+  
+<hr>
 <h3> BASE15 Anime_Image_Scraper with mlcrate.ipynb </h3>
+   This is a trial script, attempting to use the mlcrate library.
+   DO NOT USE.
+   It does not work.
 
+<hr>
 <h3> BASE16 Anime_Image_Scraper only Pool no thread-datav3.ipynb </h3>
-
+  This is a script to download the faces using pooling. 
+  Seems like it works.
+  
 <h3> BASE17 Anime_Image_Scraper only Pool no thread with max retry fix.ipynb </h3>
-
+  I think we deal with some issues in the character names in this script which could affect scraping.
+  Otherwise it's the same as the old script.
+  We run into a max retry error because we send too many requests at once. Apologies, server-chan. I will treat you better.
+  
 <h3> BASE18 Anime_Image_Scraper.ipynb </h3>
-
+  This is an attempt to scale the threaded scraper.
+  I think we tried putting a lock on the thread here.
+  I dont really know if it worked.
+  
 <h3> BASE19 Anime_Image_Scraper Works.ipynb </h3>
-
+  I am not sure, but the trial for 5 anime seems to have worked here the comments mention that we took care of the exception.
+  It seems to have worked.
+  
 <h3> MODEL1 Anime or Not Anime (data).ipynb </h3>
 <h3> MODEL2 Anime or Not Anime (data_v2)-Copy1.ipynb </h3>
 <h3> MODEL3 Which Anime (data_v3_old).ipynb </h3>
