@@ -1,3 +1,8 @@
+<h2>
+I need to make this guide because for the life of me, I could not remember which file does what.
+Commenting and Documentation are really important, lads. Keep in mind.
+
+<hr>
 <h3> BASE1 Anime_Image_Scraper_Trial1.ipynb <h3>
   Takes a file with row separated URLS as input.
   Tries to download images based on the URLS given in the file.
@@ -11,9 +16,16 @@
 <hr>
   
 <h3> BASE3 Anime_Image_Scraper.ipynb <h3>
-
+  This script uses the old script with a few modifications (to get URLs).
+  The primary purpose of this script is to make a dataset (albeit inefficiently - no threading - slow - boring). It takes a list     as input. This is a list of Anime names. 100 top Anime from IMDB it seems like. (All that effort to clean MAL data for   nothing?). Anyway the script downloads 100 images for each of these anime.
+  Seems to work.  
+  100x100 images = 6-7 hours to download
+  
 <h3> BASE4 Anime_Image_Scraper.ipynb <h3>
-
+  Glaringly small file. Suspicious.
+  I seem to have downloaded some Images based off of MAL (around 40 images).
+  Seems to work.
+  39 images = 63.99 seconds to download
 <h3> BASE5 Anime_Data Collection.ipynb <h3>
 
 <h3> BASE6 Non_Anime_Data_Collection.ipynb <h3>
