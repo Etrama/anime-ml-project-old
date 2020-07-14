@@ -1,6 +1,6 @@
 <h2>
-I need to make this guide because for the life of me, I could not remember which file does what.
-Commenting and Documentation are really important, lads. Keep in mind.
+I need to make this guide because for the life of me, I can not remember which file does what.<br>
+Commenting and Documentation are really important, lads. Keep that in mind.
 
 <hr>
 <h3> BASE1 Anime_Image_Scraper_Trial1.ipynb <h3>
@@ -20,20 +20,36 @@ Commenting and Documentation are really important, lads. Keep in mind.
   The primary purpose of this script is to make a dataset (albeit inefficiently - no threading - slow - boring). It takes a list     as input. This is a list of Anime names. 100 top Anime from IMDB it seems like. (All that effort to clean MAL data for   nothing?). Anyway the script downloads 100 images for each of these anime.
   Seems to work.  
   100x100 images = 6-7 hours to download
+<hr>  
   
 <h3> BASE4 Anime_Image_Scraper.ipynb <h3>
   Glaringly small file. Suspicious.
-  I seem to have downloaded some Images based off of MAL (around 40 images).
+  I seem to have downloaded some Images based off of MAL (around 40 images). Seems like a script to test if stuff works.
   Seems to work.
   39 images = 63.99 seconds to download
+<hr>
+  
 <h3> BASE5 Anime_Data Collection.ipynb <h3>
-
+  This script is same as the one before this but with a heavier load.
+  Seems like we found a file with a lot of Image links from MAL / Kaggle.
+  Seems to work.
+  14377 images = 12107.61 seconds to download
+  
+  
 <h3> BASE6 Non_Anime_Data_Collection.ipynb <h3>
-
+  This script does some fun stuff to get an anime related dataset from Kaggle and unzips it to a folder. I somehow feel like this   took a lot of time. Excruciating.
+  It also gets cifar-10 data from kaggle.
+  
+<hr>
+  
 <h3> BASE7 getting CIFAR-10.ipynb <h3>
+  Gets cifar-10 data from FAST AI. I think this was our hack to acquire the cifar-10 data faster.
+<hr>
 
 <h3> BASE8 moving stuff around.ipynb <h3>
-
+  Eh, there's but a single rm and mv command in this script. Sad.
+<hr>
+  
 <h3> BASE9 Anime_Image_Scraper.ipynb <h3>
 
 <h3> BASE10 Anime_Image_Scraper.ipynb <h3>
