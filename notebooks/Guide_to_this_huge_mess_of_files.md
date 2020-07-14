@@ -1,7 +1,15 @@
 <h3> BASE1 Anime_Image_Scraper_Trial1.ipynb <h3>
-
+  Takes a file with row separated URLS as input.
+  Tries to download images based on the URLS given in the file.
+  Shows a ton of errors now.
+<hr>
+  
 <h3> BASE2 Anime_Image_Scraper_Trial2.ipynb <h3>
-
+  Has a pop-up to enable/disable Ad-Block when scraping (prolly caused issues)
+  Uses Selenium, Chromedriver and some JavaScript magic to download URLS to a text file.
+  Seems to work.
+<hr>
+  
 <h3> BASE3 Anime_Image_Scraper.ipynb <h3>
 
 <h3> BASE4 Anime_Image_Scraper.ipynb <h3>
