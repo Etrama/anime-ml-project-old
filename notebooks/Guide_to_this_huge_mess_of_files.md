@@ -92,21 +92,25 @@ Commenting and Documentation are really important, lads. Keep that in mind.
 <h3> BASE16 Anime_Image_Scraper only Pool no thread-datav3.ipynb </h3>
   This is a script to download the faces using pooling. 
   Seems like it works.
-  
+<hr>
+
 <h3> BASE17 Anime_Image_Scraper only Pool no thread with max retry fix.ipynb </h3>
   I think we deal with some issues in the character names in this script which could affect scraping.
   Otherwise it's the same as the old script.
   We run into a max retry error because we send too many requests at once. Apologies, server-chan. I will treat you better.
-  
+<hr>
+
 <h3> BASE18 Anime_Image_Scraper.ipynb </h3>
   This is an attempt to scale the threaded scraper.
   I think we tried putting a lock on the thread here.
   I dont really know if it worked.
-  
+<hr>
+
 <h3> BASE19 Anime_Image_Scraper Works.ipynb </h3>
   I am not sure, but the trial for 5 anime seems to have worked here the comments mention that we took care of the exception.
   It seems to have worked.
-  
+<hr>
+
 <h3> MODEL1 Anime or Not Anime (data).ipynb </h3>
 <h3> MODEL2 Anime or Not Anime (data_v2)-Copy1.ipynb </h3>
 <h3> MODEL3 Which Anime (data_v3_old).ipynb </h3>
