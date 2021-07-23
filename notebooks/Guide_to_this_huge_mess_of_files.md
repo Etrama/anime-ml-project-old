@@ -21,6 +21,7 @@ Commenting and Documentation are really important, lads. Keep that in mind.
   The primary purpose of this script is to make a dataset (albeit inefficiently - no threading - slow - boring). It takes a list     as input. This is a list of Anime names. 100 top Anime from IMDB it seems like. (All that effort to clean MAL data for   nothing?). Anyway the script downloads 100 images for each of these anime.<br>
   Seems to work.  <br>
   100x100 images = 6-7 hours to download<br>
+  THIS IS USABLE<br>
 <hr>  
   
 <h3> BASE4 Anime_Image_Scraper.ipynb </h3>
